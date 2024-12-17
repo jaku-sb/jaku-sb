@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: deeppink;
+}
+
+h1 {
+    font-size: 6rem;
+    margin-top: 20px;
+    color:yellow;
+}
+
+#container {
+    margin: 20px auto;
+    max-width: 400px;
+    background:purple;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#stats {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.btn img {
+    width: 250px;
+    height: auto;
+    transition: transform 0.1s ease;
+}
+
+.btn:active img {
+    transform: scale(0.9);
+}
+
+#message {
+    font-size: 46px;
+    color: black;
+    margin-top: 20px;
+}
